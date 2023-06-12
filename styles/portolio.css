@@ -1,3 +1,43 @@
-h1 {
+:root {
+  --primary-color: #ef5f9a;
+  --secondary-color: #9771f3;
+  --tertiary-color: #6fdae7;
+  --background-colour: #ffffff;
+  --box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.6);
+  --font-weight: 600;
+}
+body{
+  margin: 50px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Rubik", sans-serif;
+  font-weight: var(--font-weight);
+  line-height: 1.2;
+}
+.exclaimation,
+.name,
+.shecodes-profile {
+  background: linear-gradient(45deg, #ef5f9a, #9771f3, #6fdae7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+h1 {
+  font-size: 75px;
+}
+h2 {
+  font-size: 42px;
+}
+.email-link,
+#arrow-homepage {
+  font-size: 33px;
+  text-decoration: none;
+  font-weight: var(--font-weight);
+  background: linear-gradient(45deg, #ef5f9a, #9771f3, #6fdae7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
