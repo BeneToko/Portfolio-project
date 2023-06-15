@@ -19,6 +19,23 @@ h6 {
   font-weight: var(--font-weight);
   line-height: 1.2;
 }
+hr {
+  border: none;
+  border-top: 3px double var(--primary-color);
+  color: var(--secondary-color);
+  overflow: visible;
+  text-align: center;
+  height: 5px;
+}
+
+hr:after {
+  background: #fff;
+  content: "§";
+  padding: 0 4px;
+  position: relative;
+  top: -13px;
+}
+
 .exclaimation,
 .name,
 .shecodes-profile {
@@ -33,13 +50,29 @@ h2 {
   font-size: 42px;
 }
 .email-link,
-#arrow-homepage {
+.shecodes-projects,
+#arrow-homepage,
+.about-arrow {
   font-size: 33px;
   text-decoration: none;
   font-weight: var(--font-weight);
   background: linear-gradient(45deg, #ef5f9a, #9771f3, #6fdae7);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+#about-name {
+  font-size: 50px;
+}
+.about-title {
+  font-size: 25px;
+}
+#arrow-about,
+#project-link {
+  font-size: 25px;
+  font-weight: bolder;
+}
+.about-me-paragraph {
+  margin-bottom: 0;
 }
 @media (max-width: 576px) {
   body {
