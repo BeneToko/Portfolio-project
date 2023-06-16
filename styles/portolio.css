@@ -5,6 +5,7 @@
   --background-colour: #ffffff;
   --box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.6);
   --font-weight: 600;
+  --font-family: "Rubik", sans-serif;
 }
 body {
   margin: 50px;
@@ -15,9 +16,18 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Rubik", sans-serif;
+  font-family: var(--font-family);
   font-weight: var(--font-weight);
   line-height: 1.2;
+}
+h1 {
+  font-size: 75px;
+}
+h2 {
+  font-size: 42px;
+}
+h3 {
+  font-size: 25px;
 }
 hr {
   border: none;
@@ -35,19 +45,17 @@ hr:after {
   position: relative;
   top: -13px;
 }
+p {
+  font-family: var(--font-family);
+}
 
 .exclaimation,
 .name,
-.shecodes-profile {
+.shecodes-profile,
+.small-subheading {
   background: linear-gradient(45deg, #ef5f9a, #9771f3, #6fdae7);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
-h1 {
-  font-size: 75px;
-}
-h2 {
-  font-size: 42px;
 }
 .email-link,
 .shecodes-projects,
@@ -60,10 +68,10 @@ h2 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-#about-name {
+#page-title {
   font-size: 50px;
 }
-.about-title {
+.sub-title {
   font-size: 25px;
 }
 #arrow-about,
