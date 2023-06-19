@@ -114,6 +114,9 @@ p {
 #github {
   font-size: 33px;
 }
+.social-media-link{
+  margin-left: 60px;
+}
 @media (max-width: 576px) {
   body {
     text-align: center;
