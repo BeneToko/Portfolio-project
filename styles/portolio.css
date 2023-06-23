@@ -45,8 +45,16 @@ hr:after {
   position: relative;
   top: -13px;
 }
-p {
+p,
+footer,
+nav {
   font-family: var(--font-family);
+}
+footer p {
+  text-align: center;
+}
+footer p a {
+  text-decoration: none;
 }
 
 .background {
@@ -114,9 +122,21 @@ p {
 #github {
   font-size: 33px;
 }
-.social-media-link {
-  margin-left: 60px;
+.love-heart {
+  color: var(--primary-color);
 }
+.social-media-link {
+  margin: 0 auto;
+  margin-left: 50px;
+}
+.footer-navigation {
+  background: linear-gradient(45deg, #ef5f9a, #9771f3, #6fdae7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 25px;
+  margin: 0 20px;
+}
+
 @media (max-width: 576px) {
   body {
     text-align: center;
