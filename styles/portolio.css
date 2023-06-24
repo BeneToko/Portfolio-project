@@ -56,11 +56,12 @@ footer p {
 footer p a {
   text-decoration: none;
 }
-
 .background {
   background-image: linear-gradient(165deg, #ef5f9a 50%, #fff calc(50% + 2px));
-  border-top: 40px solid var(--brand-pink);
+  border-top: 40px solid var(--primary-color);
   padding-bottom: 50px;
+  padding-left: 50px;
+  display: block;
 }
 
 .exclaimation,
@@ -153,4 +154,14 @@ footer p a {
   #arrow-homepage {
     margin-top: 0;
   }
+  .contact-title{
+background: linear-gradient(45deg, #ef5f9a, #9771f3, #6fdae7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 44px;
+  }
+.contact-image{
+  display: none;
+}
+
 }
