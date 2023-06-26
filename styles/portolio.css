@@ -154,14 +154,38 @@ footer p a {
   #arrow-homepage {
     margin-top: 0;
   }
-  .contact-title{
-background: linear-gradient(45deg, #ef5f9a, #9771f3, #6fdae7);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-size: 44px;
+  .contact-title {
+    font-size: 44px;
+    text-align: center;
+    background: linear-gradient(45deg, #ef5f9a, #9771f3, #6fdae7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 50px;
+    margin-top: 50px;
   }
-.contact-image{
-  display: none;
-}
-
+  .contact-image {
+    display: none;
+  }
+  .icons {
+    font-size: 10px;
+  }
+  .background {
+    background-image: none;
+    padding-left: 0;
+  }
+  .contact-grid {
+    margin-top: 60px;
+    text-align: center;
+    display: block;
+    font-size: 13px;
+    margin: 0 auto;
+  }
+  #linkedin,
+  #github {
+    font-size: 20px;
+  }
+  .social-media-link {
+    margin-left: 30px;
+    text-align: center;
+  }
 }
