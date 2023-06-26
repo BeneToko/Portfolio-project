@@ -63,7 +63,9 @@ footer p a {
   padding-left: 50px;
   display: block;
 }
-
+.contact-page-body{
+  margin: 0;
+}
 .exclaimation,
 .name,
 .shecodes-profile,
