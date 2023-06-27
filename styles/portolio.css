@@ -63,7 +63,7 @@ footer p a {
   padding-left: 50px;
   display: block;
 }
-.contact-page-body{
+.contact-page-body {
   margin: 0;
 }
 .exclaimation,
@@ -189,5 +189,8 @@ footer p a {
   .social-media-link {
     margin-left: 30px;
     text-align: center;
+  }
+  #page-title {
+    font-size: 50px;
   }
 }
